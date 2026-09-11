@@ -1,0 +1,35 @@
+:root {
+  --bg: #121014;
+  --bg-elev: #1c191f;
+  --bg-elev-2: #26222a;
+  --border: #362f3a;
+  --text: #f2eef2;
+  --text-dim: #a99fa8;
+  --accent: #c9482f;
+  --accent-2: #d99a3a;
+  --radius: 10px;
+  color-scheme: dark;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent-2);
+}
+
+button {
+  font-family: inherit;
+}

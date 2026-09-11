@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-11T12:07:54.103Z",
+  "sourcesChecked": 10,
+  "changesDetected": [],
+  "errors": [
+    {
+      "url": "https://bearssitges.org/bears-sitges-week/",
+      "label": "Sitges Bears Week",
+      "error": "Error: HTTP 403",
+      "refIds": [
+        "evento:sitges-bears-week-2026"
+      ]
+    },
+    {
+      "url": "https://www.gaytravel4u.com/event/daddyland-madrid/",
+      "label": "Daddyland Madrid",
+      "error": "Error: HTTP 404",
+      "refIds": [
+        "evento:daddyland-madrid-2026",
+        "bar:mad-daddy-club-madrid"
+      ]
+    },
+    {
+      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
+      "label": "NAKED",
+      "error": "Error: HTTP 403",
+      "refIds": [
+        "bar:naked-madrid"
+      ]
+    }
+  ]
+}

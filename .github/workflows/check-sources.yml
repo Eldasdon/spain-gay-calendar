@@ -1,0 +1,58 @@
+name: Revisar fuentes oficiales
+
+on:
+  schedule:
+    # Lunes y jueves a las 07:00 UTC (~2 veces por semana)
+    - cron: "0 7 * * 1,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Revisar cambios en fuentes oficiales
+        run: npm run check-sources
+
+      - name: Commit snapshots actualizados
+        run: |
+          git config user.name "calendario-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/snapshots data/change-report.json
+          git diff --cached --quiet || git commit -m "chore: snapshot de fuentes oficiales"
+          git push
+
+      - name: Abrir issue si hay cambios detectados
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('data/change-report.json', 'utf-8'));
+            if (report.changesDetected.length === 0) return;
+
+            const body = [
+              `Se detectaron cambios en ${report.changesDetected.length} fuente(s) oficial(es) el ${report.checkedAt}.`,
+              '',
+              'Revisar y actualizar `src/data/events.json` a mano si corresponde:',
+              '',
+              ...report.changesDetected.map(c => `- ${c.url} → eventos: ${c.eventIds.join(', ')}`),
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Posibles cambios en fuentes oficiales (${new Date(report.checkedAt).toLocaleDateString('es-ES')})`,
+              body,
+              labels: ['revisar-fuente'],
+            });

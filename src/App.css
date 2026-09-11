@@ -1,0 +1,372 @@
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+.app-header {
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 1.6rem;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin: 20px 0;
+  padding: 14px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.chip.active {
+  color: #fff;
+  border-color: transparent;
+}
+
+.chip:hover {
+  filter: brightness(1.15);
+}
+
+.select-native {
+  background: var(--bg-elev-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+  background: var(--bg-elev-2);
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.view-toggle button {
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.view-toggle button.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.month-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 18px 0 10px;
+}
+
+.month-nav button {
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.month-nav h2 {
+  font-size: 1.05rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.cal-month {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cal-dow-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.cal-dow {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.cal-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 2px;
+  row-gap: 2px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  background: var(--bg-elev);
+  margin-bottom: 2px;
+}
+
+.cal-daynum {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  padding: 1px 3px;
+  border-radius: 4px;
+  grid-row: 1;
+  height: fit-content;
+}
+
+.cal-daynum:hover {
+  background: var(--bg-elev-2);
+}
+
+.cal-daynum.out {
+  opacity: 0.3;
+}
+
+.cal-daynum.selected {
+  background: var(--accent);
+  color: #fff;
+}
+
+.cal-bar {
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.68rem;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+}
+
+.cal-bar-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cal-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 0.76rem;
+  color: var(--text-dim);
+}
+
+.cal-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cal-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.day-panel {
+  margin-top: 16px;
+}
+
+.day-panel h3 {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+  text-transform: capitalize;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.event-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.event-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.event-card h3 {
+  margin: 0 0 3px;
+  font-size: 1.02rem;
+}
+
+.event-meta {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.badge-alert {
+  background: #7a1f1f;
+  border: 1px solid #b23b3b;
+  color: #ffdede;
+  font-size: 0.72rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.event-desc {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  margin: 0 0 10px;
+}
+
+.event-links {
+  display: flex;
+  gap: 14px;
+  font-size: 0.82rem;
+  flex-wrap: wrap;
+}
+
+.event-verified {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+.month-heading {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-transform: capitalize;
+  margin: 22px 0 10px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+}
+
+.empty-state {
+  color: var(--text-dim);
+  padding: 30px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.section-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.section-tabs button {
+  border: none;
+  background: transparent;
+  color: var(--text-dim);
+  padding: 8px 16px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-bottom: 2px solid transparent;
+}
+
+.section-tabs button.active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+.bar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.bar-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.bar-card h3 {
+  margin: 0 0 3px;
+  font-size: 1.02rem;
+}
+
+.bar-recurrence {
+  display: inline-block;
+  font-size: 0.72rem;
+  color: var(--accent-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 9px;
+  margin-bottom: 8px;
+}
+
+.footnote {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
