@@ -2,10 +2,9 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "bearcal-dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 5173
+      "name": "spaingay-calendar-dev",
+      "url": "http://localhost:5174",
+      "port": 5174
     }
   ]
 }
