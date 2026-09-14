@@ -1,7 +1,24 @@
 {
-  "checkedAt": "2026-09-11T16:13:50.116Z",
+  "checkedAt": "2026-09-14T13:36:40.221Z",
   "sourcesChecked": 31,
   "changesDetected": [
+    {
+      "url": "https://www.instagram.com/sleazymadrid/",
+      "label": "Sleazy Madrid (edición 25 aniversario)",
+      "refIds": [
+        "evento:sleazy-madrid-2026-spring",
+        "evento:sleazy-madrid-2026-winter"
+      ],
+      "detectedAt": "2026-09-14T13:36:08.555Z"
+    },
+    {
+      "url": "https://strong.madrid/",
+      "label": "Morbo Y Duro — Strong Pride Madrid",
+      "refIds": [
+        "evento:morbo-y-duro-julio-2026"
+      ],
+      "detectedAt": "2026-09-14T13:36:10.567Z"
+    },
     {
       "url": "https://t.me/s/strongtheclub",
       "label": "Nightride",
@@ -10,7 +27,39 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-09-11T16:13:38.786Z"
+      "detectedAt": "2026-09-14T13:36:12.332Z"
+    },
+    {
+      "url": "https://www.winterpride.com/",
+      "label": "WinterPride Maspalomas",
+      "refIds": [
+        "evento:winterpride-maspalomas-2026"
+      ],
+      "detectedAt": "2026-09-14T13:36:22.086Z"
+    },
+    {
+      "url": "https://bearsnaturistas.com/",
+      "label": "Bears Naturistas Vera Playa",
+      "refIds": [
+        "evento:bears-naturistas-vera-2026"
+      ],
+      "detectedAt": "2026-09-14T13:36:24.229Z"
+    },
+    {
+      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
+      "label": "Daddy Week Torremolinos",
+      "refIds": [
+        "evento:daddy-week-torremolinos-2026"
+      ],
+      "detectedAt": "2026-09-14T13:36:24.657Z"
+    },
+    {
+      "url": "https://locobongo.es/torremolinos/",
+      "label": "Loco Bongo Torremolinos",
+      "refIds": [
+        "bar:loco-bongo-torremolinos"
+      ],
+      "detectedAt": "2026-09-14T13:36:40.221Z"
     }
   ],
   "errors": [
@@ -32,27 +81,11 @@
       ]
     },
     {
-      "url": "https://madridorgullo.com/",
-      "label": "MADO — Madrid Orgullo",
-      "error": "Error: HTTP 403",
-      "refIds": [
-        "evento:mado-madrid-2026"
-      ]
-    },
-    {
       "url": "https://www.travelgay.com/event/maspalomas-fetish-week",
       "label": "Maspalomas Fetish Pride",
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:maspalomas-fetish-pride-2026"
-      ]
-    },
-    {
-      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
-      "label": "NAKED",
-      "error": "Error: HTTP 403",
-      "refIds": [
-        "bar:naked-madrid"
       ]
     },
     {
@@ -85,14 +118,6 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "bar:meat-rack-madrid"
-      ]
-    },
-    {
-      "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
-      "label": "Secrets",
-      "error": "Error: HTTP 403",
-      "refIds": [
-        "bar:secrets-madrid"
       ]
     },
     {
