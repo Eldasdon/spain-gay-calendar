@@ -1,23 +1,22 @@
 {
-  "checkedAt": "2026-09-14T13:36:40.221Z",
+  "checkedAt": "2026-09-17T12:24:00.029Z",
   "sourcesChecked": 31,
   "changesDetected": [
-    {
-      "url": "https://www.instagram.com/sleazymadrid/",
-      "label": "Sleazy Madrid (edición 25 aniversario)",
-      "refIds": [
-        "evento:sleazy-madrid-2026-spring",
-        "evento:sleazy-madrid-2026-winter"
-      ],
-      "detectedAt": "2026-09-14T13:36:08.555Z"
-    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-09-14T13:36:10.567Z"
+      "detectedAt": "2026-09-17T12:23:37.213Z"
+    },
+    {
+      "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
+      "label": "Mr Leather Spain",
+      "refIds": [
+        "evento:mr-leather-spain-2026"
+      ],
+      "detectedAt": "2026-09-17T12:23:37.544Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -27,7 +26,15 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-09-14T13:36:12.332Z"
+      "detectedAt": "2026-09-17T12:23:38.622Z"
+    },
+    {
+      "url": "https://folsomeurope.berlin/",
+      "label": "Folsom Europe",
+      "refIds": [
+        "evento:folsom-europe-berlin-2026"
+      ],
+      "detectedAt": "2026-09-17T12:23:39.898Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -35,15 +42,7 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-09-14T13:36:22.086Z"
-    },
-    {
-      "url": "https://bearsnaturistas.com/",
-      "label": "Bears Naturistas Vera Playa",
-      "refIds": [
-        "evento:bears-naturistas-vera-2026"
-      ],
-      "detectedAt": "2026-09-14T13:36:24.229Z"
+      "detectedAt": "2026-09-17T12:23:46.425Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
@@ -51,7 +50,23 @@
       "refIds": [
         "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-09-14T13:36:24.657Z"
+      "detectedAt": "2026-09-17T12:23:48.653Z"
+    },
+    {
+      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
+      "label": "NAKED",
+      "refIds": [
+        "bar:naked-madrid"
+      ],
+      "detectedAt": "2026-09-17T12:23:51.664Z"
+    },
+    {
+      "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
+      "label": "Secrets",
+      "refIds": [
+        "bar:secrets-madrid"
+      ],
+      "detectedAt": "2026-09-17T12:23:56.949Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -59,7 +74,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-09-14T13:36:40.221Z"
+      "detectedAt": "2026-09-17T12:24:00.029Z"
     }
   ],
   "errors": [
@@ -72,12 +87,29 @@
       ]
     },
     {
+      "url": "https://www.instagram.com/sleazymadrid/",
+      "label": "Sleazy Madrid (edición 25 aniversario)",
+      "error": "Error: HTTP 429",
+      "refIds": [
+        "evento:sleazy-madrid-2026-spring",
+        "evento:sleazy-madrid-2026-winter"
+      ]
+    },
+    {
       "url": "https://www.gaytravel4u.com/event/daddyland-madrid/",
       "label": "Daddyland Madrid",
       "error": "Error: HTTP 404",
       "refIds": [
         "evento:daddyland-madrid-2026",
         "bar:mad-daddy-club-madrid"
+      ]
+    },
+    {
+      "url": "https://madridorgullo.com/",
+      "label": "MADO — Madrid Orgullo",
+      "error": "Error: HTTP 403",
+      "refIds": [
+        "evento:mado-madrid-2026"
       ]
     },
     {
