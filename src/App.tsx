@@ -14,6 +14,11 @@ const MONTH_NAMES = [
   "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
 ];
 
+function todayIso(): string {
+  const now = new Date();
+  return `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+}
+
 export default function App() {
   const [events, setEvents] = useState<EventItem[]>([]);
   const [bars, setBars] = useState<BarItem[]>([]);
@@ -89,9 +94,19 @@ export default function App() {
     ? filteredEvents.filter((e) => selectedDate >= e.startDate && selectedDate <= (e.endDate ?? e.startDate))
     : [];
 
+  // La vista Lista (portada) arranca en el evento más próximo (hoy en adelante, incluidos los
+  // que ya empezaron pero siguen activos) — así quien entra ve primero lo más cercano.
+  // El calendario en cambio sigue mostrando todo el año, filtrado solo por categoría/ciudad.
+  const upcomingEvents = useMemo(() => {
+    const today = todayIso();
+    return filteredEvents.filter((e) => (e.endDate ?? e.startDate) >= today);
+  }, [filteredEvents]);
+
+  const nextEventId = upcomingEvents[0]?.id ?? null;
+
   const groupedByMonth = useMemo(() => {
     const groups: { label: string; items: EventItem[] }[] = [];
-    for (const ev of filteredEvents) {
+    for (const ev of upcomingEvents) {
       const d = new Date(ev.startDate + "T00:00:00");
       const label = `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}`;
       let g = groups.find((g) => g.label === label);
@@ -102,7 +117,7 @@ export default function App() {
       g.items.push(ev);
     }
     return groups;
-  }, [filteredEvents]);
+  }, [upcomingEvents]);
 
   return (
     <div className="app">
@@ -218,13 +233,13 @@ export default function App() {
 
       {!loading && !loadError && section === "events" && view === "list" && (
         <>
-          {groupedByMonth.length === 0 && <p className="empty-state">No hay eventos con estos filtros.</p>}
+          {groupedByMonth.length === 0 && <p className="empty-state">No hay próximos eventos con estos filtros.</p>}
           {groupedByMonth.map((g) => (
             <div key={g.label}>
               <h3 className="month-heading">{g.label}</h3>
               <div className="event-list">
                 {g.items.map((ev) => (
-                  <EventCard event={ev} key={ev.id} />
+                  <EventCard event={ev} key={ev.id} isNext={ev.id === nextEventId} />
                 ))}
               </div>
             </div>

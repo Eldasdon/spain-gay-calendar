@@ -229,6 +229,27 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 14px 16px;
+  position: relative;
+}
+
+.event-card-next {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  padding-top: 30px;
+}
+
+.next-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 10px;
+  border-radius: var(--radius) 0 8px 0;
 }
 
 .event-card-top {

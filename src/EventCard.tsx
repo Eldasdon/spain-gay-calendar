@@ -13,9 +13,10 @@ function formatDateRange(ev: EventItem): string {
   return `${startStr} – ${end.toLocaleDateString("es-ES", opts)}`;
 }
 
-export default function EventCard({ event }: { event: EventItem }) {
+export default function EventCard({ event, isNext = false }: { event: EventItem; isNext?: boolean }) {
   return (
-    <div className="event-card">
+    <div className={`event-card ${isNext ? "event-card-next" : ""}`}>
+      {isNext && <span className="next-badge">Próximo evento</span>}
       <div className="event-card-top">
         <div>
           <h3>{event.title}</h3>
