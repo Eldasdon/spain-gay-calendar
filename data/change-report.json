@@ -1,14 +1,22 @@
 {
-  "checkedAt": "2026-09-21T13:35:22.940Z",
+  "checkedAt": "2026-09-24T12:31:26.345Z",
   "sourcesChecked": 31,
   "changesDetected": [
+    {
+      "url": "https://madbear.org/en/madbear-madrid",
+      "label": "Mad Bear Madrid",
+      "refIds": [
+        "evento:mad-bear-madrid-2026"
+      ],
+      "detectedAt": "2026-09-24T12:30:54.812Z"
+    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-09-21T13:34:59.114Z"
+      "detectedAt": "2026-09-24T12:30:57.383Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +24,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-09-21T13:34:59.437Z"
+      "detectedAt": "2026-09-24T12:30:57.678Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,7 +34,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-09-21T13:35:00.517Z"
+      "detectedAt": "2026-09-24T12:30:59.071Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -34,7 +42,7 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-09-21T13:35:08.951Z"
+      "detectedAt": "2026-09-24T12:31:06.527Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
@@ -42,15 +50,15 @@
       "refIds": [
         "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-09-21T13:35:11.726Z"
+      "detectedAt": "2026-09-24T12:31:10.211Z"
     },
     {
-      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
-      "label": "NAKED",
+      "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
+      "label": "Secrets",
       "refIds": [
-        "bar:naked-madrid"
+        "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-09-21T13:35:14.565Z"
+      "detectedAt": "2026-09-24T12:31:22.669Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -58,7 +66,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-09-21T13:35:22.940Z"
+      "detectedAt": "2026-09-24T12:31:26.345Z"
     }
   ],
   "errors": [
@@ -86,14 +94,6 @@
       "refIds": [
         "evento:daddyland-madrid-2026",
         "bar:mad-daddy-club-madrid"
-      ]
-    },
-    {
-      "url": "https://madridorgullo.com/",
-      "label": "MADO — Madrid Orgullo",
-      "error": "Error: HTTP 403",
-      "refIds": [
-        "evento:mado-madrid-2026"
       ]
     },
     {
