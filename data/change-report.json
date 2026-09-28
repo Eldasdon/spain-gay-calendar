@@ -1,22 +1,14 @@
 {
-  "checkedAt": "2026-09-24T12:31:26.345Z",
+  "checkedAt": "2026-09-28T14:55:08.821Z",
   "sourcesChecked": 31,
   "changesDetected": [
-    {
-      "url": "https://madbear.org/en/madbear-madrid",
-      "label": "Mad Bear Madrid",
-      "refIds": [
-        "evento:mad-bear-madrid-2026"
-      ],
-      "detectedAt": "2026-09-24T12:30:54.812Z"
-    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-09-24T12:30:57.383Z"
+      "detectedAt": "2026-09-28T14:54:42.895Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -24,7 +16,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-09-24T12:30:57.678Z"
+      "detectedAt": "2026-09-28T14:54:43.293Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -34,7 +26,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-09-24T12:30:59.071Z"
+      "detectedAt": "2026-09-28T14:54:44.333Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -42,7 +34,7 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-09-24T12:31:06.527Z"
+      "detectedAt": "2026-09-28T14:54:51.670Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
@@ -50,7 +42,7 @@
       "refIds": [
         "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-09-24T12:31:10.211Z"
+      "detectedAt": "2026-09-28T14:54:54.172Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -58,7 +50,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-09-24T12:31:22.669Z"
+      "detectedAt": "2026-09-28T14:55:05.596Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -66,7 +58,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-09-24T12:31:26.345Z"
+      "detectedAt": "2026-09-28T14:55:08.821Z"
     }
   ],
   "errors": [
@@ -76,15 +68,6 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:sitges-bears-week-2026"
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/sleazymadrid/",
-      "label": "Sleazy Madrid (edición 25 aniversario)",
-      "error": "Error: HTTP 429",
-      "refIds": [
-        "evento:sleazy-madrid-2026-spring",
-        "evento:sleazy-madrid-2026-winter"
       ]
     },
     {
