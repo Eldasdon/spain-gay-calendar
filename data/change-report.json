@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-28T14:55:08.821Z",
+  "checkedAt": "2026-10-01T14:09:06.299Z",
   "sourcesChecked": 31,
   "changesDetected": [
     {
@@ -8,15 +8,7 @@
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-09-28T14:54:42.895Z"
-    },
-    {
-      "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
-      "label": "Mr Leather Spain",
-      "refIds": [
-        "evento:mr-leather-spain-2026"
-      ],
-      "detectedAt": "2026-09-28T14:54:43.293Z"
+      "detectedAt": "2026-10-01T14:08:42.196Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,7 +18,15 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-09-28T14:54:44.333Z"
+      "detectedAt": "2026-10-01T14:08:43.716Z"
+    },
+    {
+      "url": "https://folsomeurope.berlin/",
+      "label": "Folsom Europe",
+      "refIds": [
+        "evento:folsom-europe-berlin-2026"
+      ],
+      "detectedAt": "2026-10-01T14:08:44.528Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -34,7 +34,7 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-09-28T14:54:51.670Z"
+      "detectedAt": "2026-10-01T14:08:51.161Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
@@ -42,7 +42,15 @@
       "refIds": [
         "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-09-28T14:54:54.172Z"
+      "detectedAt": "2026-10-01T14:08:54.881Z"
+    },
+    {
+      "url": "https://firewoodbarmadrid.com/",
+      "label": "Firewood",
+      "refIds": [
+        "bar:firewood-madrid"
+      ],
+      "detectedAt": "2026-10-01T14:09:01.652Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +58,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-09-28T14:55:05.596Z"
+      "detectedAt": "2026-10-01T14:09:02.907Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -58,7 +66,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-09-28T14:55:08.821Z"
+      "detectedAt": "2026-10-01T14:09:06.299Z"
     }
   ],
   "errors": [
