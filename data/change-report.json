@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T15:31:47.495Z",
+  "checkedAt": "2026-10-08T14:21:10.153Z",
   "sourcesChecked": 31,
   "changesDetected": [
     {
@@ -8,7 +8,7 @@
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-05T15:31:19.227Z"
+      "detectedAt": "2026-10-08T14:20:44.815Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +16,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-10-05T15:31:20.132Z"
+      "detectedAt": "2026-10-08T14:20:45.141Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,7 +26,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-05T15:31:21.454Z"
+      "detectedAt": "2026-10-08T14:20:46.372Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -34,15 +34,15 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-05T15:31:30.450Z"
+      "detectedAt": "2026-10-08T14:20:52.184Z"
     },
     {
-      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
-      "label": "Daddy Week Torremolinos",
+      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
+      "label": "NAKED",
       "refIds": [
-        "evento:daddy-week-torremolinos-2026"
+        "bar:naked-madrid"
       ],
-      "detectedAt": "2026-10-05T15:31:34.509Z"
+      "detectedAt": "2026-10-08T14:21:02.509Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +50,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-05T15:31:44.467Z"
+      "detectedAt": "2026-10-08T14:21:07.566Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -58,7 +58,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-10-05T15:31:47.495Z"
+      "detectedAt": "2026-10-08T14:21:10.153Z"
     }
   ],
   "errors": [
