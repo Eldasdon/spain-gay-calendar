@@ -1,14 +1,22 @@
 {
-  "checkedAt": "2026-10-08T14:21:10.153Z",
+  "checkedAt": "2026-10-12T16:27:38.023Z",
   "sourcesChecked": 31,
   "changesDetected": [
+    {
+      "url": "https://madbear.org/en/madbear-madrid",
+      "label": "Mad Bear Madrid",
+      "refIds": [
+        "evento:mad-bear-madrid-2026"
+      ],
+      "detectedAt": "2026-10-12T16:27:15.192Z"
+    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-08T14:20:44.815Z"
+      "detectedAt": "2026-10-12T16:27:17.649Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +24,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-10-08T14:20:45.141Z"
+      "detectedAt": "2026-10-12T16:27:17.961Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,7 +34,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-08T14:20:46.372Z"
+      "detectedAt": "2026-10-12T16:27:18.901Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -34,15 +42,31 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-08T14:20:52.184Z"
+      "detectedAt": "2026-10-12T16:27:23.580Z"
     },
     {
-      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
-      "label": "NAKED",
+      "url": "https://madbear.org/en/madbear-beach-torremolinos",
+      "label": "Mad.Bear Beach Torremolinos",
       "refIds": [
-        "bar:naked-madrid"
+        "evento:madbear-beach-torremolinos-2026"
       ],
-      "detectedAt": "2026-10-08T14:21:02.509Z"
+      "detectedAt": "2026-10-12T16:27:26.901Z"
+    },
+    {
+      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
+      "label": "Daddy Week Torremolinos",
+      "refIds": [
+        "evento:daddy-week-torremolinos-2026"
+      ],
+      "detectedAt": "2026-10-12T16:27:27.144Z"
+    },
+    {
+      "url": "https://madbear.org/en/valencia",
+      "label": "Mad.Bear Valencia",
+      "refIds": [
+        "evento:madbear-valencia-2026"
+      ],
+      "detectedAt": "2026-10-12T16:27:27.669Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +74,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-08T14:21:07.566Z"
+      "detectedAt": "2026-10-12T16:27:35.132Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -58,7 +82,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-10-08T14:21:10.153Z"
+      "detectedAt": "2026-10-12T16:27:38.023Z"
     }
   ],
   "errors": [
