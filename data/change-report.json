@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19T14:18:43.710Z",
+  "checkedAt": "2026-10-22T12:45:30.811Z",
   "sourcesChecked": 31,
   "changesDetected": [
     {
@@ -8,7 +8,7 @@
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-19T14:18:19.963Z"
+      "detectedAt": "2026-10-22T12:45:04.083Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +16,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-10-19T14:18:20.441Z"
+      "detectedAt": "2026-10-22T12:45:06.232Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,15 +26,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-19T14:18:21.592Z"
-    },
-    {
-      "url": "https://www.maspalomaspride.com/",
-      "label": "Maspalomas Pride",
-      "refIds": [
-        "evento:maspalomas-pride-2026"
-      ],
-      "detectedAt": "2026-10-19T14:18:26.540Z"
+      "detectedAt": "2026-10-22T12:45:07.554Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -42,15 +34,15 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-19T14:18:28.660Z"
+      "detectedAt": "2026-10-22T12:45:15.800Z"
     },
     {
-      "url": "https://bearsnaturistas.com/",
-      "label": "Bears Naturistas Vera Playa",
+      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
+      "label": "Daddy Week Torremolinos",
       "refIds": [
-        "evento:bears-naturistas-vera-2026"
+        "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-10-19T14:18:30.780Z"
+      "detectedAt": "2026-10-22T12:45:19.823Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -58,15 +50,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-19T14:18:40.531Z"
-    },
-    {
-      "url": "https://locobongo.es/torremolinos/",
-      "label": "Loco Bongo Torremolinos",
-      "refIds": [
-        "bar:loco-bongo-torremolinos"
-      ],
-      "detectedAt": "2026-10-19T14:18:43.710Z"
+      "detectedAt": "2026-10-22T12:45:27.967Z"
     }
   ],
   "errors": [
@@ -76,15 +60,6 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:sitges-bears-week-2026"
-      ]
-    },
-    {
-      "url": "https://www.instagram.com/sleazymadrid/",
-      "label": "Sleazy Madrid (edición 25 aniversario)",
-      "error": "Error: HTTP 429",
-      "refIds": [
-        "evento:sleazy-madrid-2026-spring",
-        "evento:sleazy-madrid-2026-winter"
       ]
     },
     {
@@ -110,6 +85,14 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:maspalomas-fetish-pride-2026"
+      ]
+    },
+    {
+      "url": "https://barhotchuecamadrid.com/",
+      "label": "HOT",
+      "error": "TypeError: fetch failed",
+      "refIds": [
+        "bar:hot-bar-madrid"
       ]
     },
     {
@@ -158,6 +141,14 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "bar:sauna-thermas-moratalaz-madrid"
+      ]
+    },
+    {
+      "url": "https://locobongo.es/torremolinos/",
+      "label": "Loco Bongo Torremolinos",
+      "error": "TypeError: fetch failed",
+      "refIds": [
+        "bar:loco-bongo-torremolinos"
       ]
     }
   ]
