@@ -1,14 +1,22 @@
 {
-  "checkedAt": "2026-10-22T12:45:30.811Z",
+  "checkedAt": "2026-10-26T13:50:27.963Z",
   "sourcesChecked": 31,
   "changesDetected": [
+    {
+      "url": "https://madbear.org/en/madbear-madrid",
+      "label": "Mad Bear Madrid",
+      "refIds": [
+        "evento:mad-bear-madrid-2026"
+      ],
+      "detectedAt": "2026-10-26T13:49:54.123Z"
+    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-22T12:45:04.083Z"
+      "detectedAt": "2026-10-26T13:49:57.306Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +24,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-10-22T12:45:06.232Z"
+      "detectedAt": "2026-10-26T13:49:57.769Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,7 +34,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-22T12:45:07.554Z"
+      "detectedAt": "2026-10-26T13:49:59.079Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -34,15 +42,7 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-22T12:45:15.800Z"
-    },
-    {
-      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
-      "label": "Daddy Week Torremolinos",
-      "refIds": [
-        "evento:daddy-week-torremolinos-2026"
-      ],
-      "detectedAt": "2026-10-22T12:45:19.823Z"
+      "detectedAt": "2026-10-26T13:50:06.912Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +50,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-22T12:45:27.967Z"
+      "detectedAt": "2026-10-26T13:50:23.874Z"
     }
   ],
   "errors": [
@@ -85,14 +85,6 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:maspalomas-fetish-pride-2026"
-      ]
-    },
-    {
-      "url": "https://barhotchuecamadrid.com/",
-      "label": "HOT",
-      "error": "TypeError: fetch failed",
-      "refIds": [
-        "bar:hot-bar-madrid"
       ]
     },
     {
@@ -141,14 +133,6 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "bar:sauna-thermas-moratalaz-madrid"
-      ]
-    },
-    {
-      "url": "https://locobongo.es/torremolinos/",
-      "label": "Loco Bongo Torremolinos",
-      "error": "TypeError: fetch failed",
-      "refIds": [
-        "bar:loco-bongo-torremolinos"
       ]
     }
   ]
