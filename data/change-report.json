@@ -1,30 +1,14 @@
 {
-  "checkedAt": "2026-10-26T13:50:27.963Z",
+  "checkedAt": "2026-10-29T13:55:33.670Z",
   "sourcesChecked": 31,
   "changesDetected": [
-    {
-      "url": "https://madbear.org/en/madbear-madrid",
-      "label": "Mad Bear Madrid",
-      "refIds": [
-        "evento:mad-bear-madrid-2026"
-      ],
-      "detectedAt": "2026-10-26T13:49:54.123Z"
-    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-26T13:49:57.306Z"
-    },
-    {
-      "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
-      "label": "Mr Leather Spain",
-      "refIds": [
-        "evento:mr-leather-spain-2026"
-      ],
-      "detectedAt": "2026-10-26T13:49:57.769Z"
+      "detectedAt": "2026-10-29T13:55:04.509Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -34,7 +18,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-26T13:49:59.079Z"
+      "detectedAt": "2026-10-29T13:55:06.395Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -42,7 +26,23 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-26T13:50:06.912Z"
+      "detectedAt": "2026-10-29T13:55:14.240Z"
+    },
+    {
+      "url": "https://bearsnaturistas.com/",
+      "label": "Bears Naturistas Vera Playa",
+      "refIds": [
+        "evento:bears-naturistas-vera-2026"
+      ],
+      "detectedAt": "2026-10-29T13:55:17.141Z"
+    },
+    {
+      "url": "https://firewoodbarmadrid.com/",
+      "label": "Firewood",
+      "refIds": [
+        "bar:firewood-madrid"
+      ],
+      "detectedAt": "2026-10-29T13:55:29.158Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +50,15 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-26T13:50:23.874Z"
+      "detectedAt": "2026-10-29T13:55:30.637Z"
+    },
+    {
+      "url": "https://locobongo.es/torremolinos/",
+      "label": "Loco Bongo Torremolinos",
+      "refIds": [
+        "bar:loco-bongo-torremolinos"
+      ],
+      "detectedAt": "2026-10-29T13:55:33.670Z"
     }
   ],
   "errors": [
@@ -74,7 +82,7 @@
     {
       "url": "https://madridorgullo.com/",
       "label": "MADO — Madrid Orgullo",
-      "error": "Error: HTTP 403",
+      "error": "Error: HTTP 500",
       "refIds": [
         "evento:mado-madrid-2026"
       ]
