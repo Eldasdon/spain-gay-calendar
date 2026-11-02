@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T13:55:33.670Z",
+  "checkedAt": "2026-11-02T16:47:57.661Z",
   "sourcesChecked": 31,
   "changesDetected": [
     {
@@ -8,7 +8,15 @@
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-10-29T13:55:04.509Z"
+      "detectedAt": "2026-11-02T16:47:38.074Z"
+    },
+    {
+      "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
+      "label": "Mr Leather Spain",
+      "refIds": [
+        "evento:mr-leather-spain-2026"
+      ],
+      "detectedAt": "2026-11-02T16:47:38.635Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -18,7 +26,15 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-10-29T13:55:06.395Z"
+      "detectedAt": "2026-11-02T16:47:39.813Z"
+    },
+    {
+      "url": "https://bearcarnival.com/",
+      "label": "Bear Carnival Maspalomas",
+      "refIds": [
+        "evento:bear-carnival-maspalomas-2026"
+      ],
+      "detectedAt": "2026-11-02T16:47:41.441Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -26,15 +42,15 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-10-29T13:55:14.240Z"
+      "detectedAt": "2026-11-02T16:47:45.432Z"
     },
     {
-      "url": "https://bearsnaturistas.com/",
-      "label": "Bears Naturistas Vera Playa",
+      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
+      "label": "Daddy Week Torremolinos",
       "refIds": [
-        "evento:bears-naturistas-vera-2026"
+        "evento:daddy-week-torremolinos-2026"
       ],
-      "detectedAt": "2026-10-29T13:55:17.141Z"
+      "detectedAt": "2026-11-02T16:47:48.392Z"
     },
     {
       "url": "https://firewoodbarmadrid.com/",
@@ -42,7 +58,7 @@
       "refIds": [
         "bar:firewood-madrid"
       ],
-      "detectedAt": "2026-10-29T13:55:29.158Z"
+      "detectedAt": "2026-11-02T16:47:54.674Z"
     },
     {
       "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
@@ -50,7 +66,7 @@
       "refIds": [
         "bar:secrets-madrid"
       ],
-      "detectedAt": "2026-10-29T13:55:30.637Z"
+      "detectedAt": "2026-11-02T16:47:55.166Z"
     },
     {
       "url": "https://locobongo.es/torremolinos/",
@@ -58,7 +74,7 @@
       "refIds": [
         "bar:loco-bongo-torremolinos"
       ],
-      "detectedAt": "2026-10-29T13:55:33.670Z"
+      "detectedAt": "2026-11-02T16:47:57.661Z"
     }
   ],
   "errors": [
@@ -82,7 +98,7 @@
     {
       "url": "https://madridorgullo.com/",
       "label": "MADO — Madrid Orgullo",
-      "error": "Error: HTTP 500",
+      "error": "TypeError: fetch failed",
       "refIds": [
         "evento:mado-madrid-2026"
       ]
