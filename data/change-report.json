@@ -1,14 +1,22 @@
 {
-  "checkedAt": "2026-11-02T16:47:57.661Z",
+  "checkedAt": "2026-11-05T15:09:07.250Z",
   "sourcesChecked": 31,
   "changesDetected": [
+    {
+      "url": "https://madbear.org/en/madbear-madrid",
+      "label": "Mad Bear Madrid",
+      "refIds": [
+        "evento:mad-bear-madrid-2026"
+      ],
+      "detectedAt": "2026-11-05T15:08:35.303Z"
+    },
     {
       "url": "https://strong.madrid/",
       "label": "Morbo Y Duro — Strong Pride Madrid",
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:38.074Z"
+      "detectedAt": "2026-11-05T15:08:38.541Z"
     },
     {
       "url": "https://www.gaytravel4u.com/event/madrid-leather-weekend/",
@@ -16,7 +24,7 @@
       "refIds": [
         "evento:mr-leather-spain-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:38.635Z"
+      "detectedAt": "2026-11-05T15:08:38.886Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -26,15 +34,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-11-02T16:47:39.813Z"
-    },
-    {
-      "url": "https://bearcarnival.com/",
-      "label": "Bear Carnival Maspalomas",
-      "refIds": [
-        "evento:bear-carnival-maspalomas-2026"
-      ],
-      "detectedAt": "2026-11-02T16:47:41.441Z"
+      "detectedAt": "2026-11-05T15:08:40.302Z"
     },
     {
       "url": "https://www.winterpride.com/",
@@ -42,39 +42,39 @@
       "refIds": [
         "evento:winterpride-maspalomas-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:45.432Z"
+      "detectedAt": "2026-11-05T15:08:48.480Z"
     },
     {
-      "url": "https://www.gaytravel4u.com/event/daddy-week-torremolinos/",
-      "label": "Daddy Week Torremolinos",
+      "url": "https://bearsnaturistas.com/",
+      "label": "Bears Naturistas Vera Playa",
       "refIds": [
-        "evento:daddy-week-torremolinos-2026"
+        "evento:bears-naturistas-vera-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:48.392Z"
+      "detectedAt": "2026-11-05T15:08:51.198Z"
     },
     {
-      "url": "https://firewoodbarmadrid.com/",
-      "label": "Firewood",
+      "url": "https://madbear.org/en/madbear-beach-torremolinos",
+      "label": "Mad.Bear Beach Torremolinos",
       "refIds": [
-        "bar:firewood-madrid"
+        "evento:madbear-beach-torremolinos-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:54.674Z"
+      "detectedAt": "2026-11-05T15:08:52.042Z"
     },
     {
-      "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
-      "label": "Secrets",
+      "url": "https://madbear.org/en/valencia",
+      "label": "Mad.Bear Valencia",
       "refIds": [
-        "bar:secrets-madrid"
+        "evento:madbear-valencia-2026"
       ],
-      "detectedAt": "2026-11-02T16:47:55.166Z"
+      "detectedAt": "2026-11-05T15:08:52.329Z"
     },
     {
-      "url": "https://locobongo.es/torremolinos/",
-      "label": "Loco Bongo Torremolinos",
+      "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
+      "label": "NAKED",
       "refIds": [
-        "bar:loco-bongo-torremolinos"
+        "bar:naked-madrid"
       ],
-      "detectedAt": "2026-11-02T16:47:57.661Z"
+      "detectedAt": "2026-11-05T15:08:58.491Z"
     }
   ],
   "errors": [
@@ -84,6 +84,15 @@
       "error": "Error: HTTP 403",
       "refIds": [
         "evento:sitges-bears-week-2026"
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/sleazymadrid/",
+      "label": "Sleazy Madrid (edición 25 aniversario)",
+      "error": "Error: HTTP 429",
+      "refIds": [
+        "evento:sleazy-madrid-2026-spring",
+        "evento:sleazy-madrid-2026-winter"
       ]
     },
     {
