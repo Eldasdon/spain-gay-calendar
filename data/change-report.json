@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T17:07:26.359Z",
+  "checkedAt": "2026-11-12T15:45:16.317Z",
   "sourcesChecked": 31,
   "changesDetected": [
     {
@@ -8,7 +8,7 @@
       "refIds": [
         "evento:morbo-y-duro-julio-2026"
       ],
-      "detectedAt": "2026-11-09T17:06:55.310Z"
+      "detectedAt": "2026-11-12T15:44:50.245Z"
     },
     {
       "url": "https://t.me/s/strongtheclub",
@@ -18,15 +18,7 @@
         "evento:odarko-strong-2026-09-18",
         "watch:https://t.me/s/strongtheclub"
       ],
-      "detectedAt": "2026-11-09T17:06:56.986Z"
-    },
-    {
-      "url": "https://www.winterpride.com/",
-      "label": "WinterPride Maspalomas",
-      "refIds": [
-        "evento:winterpride-maspalomas-2026"
-      ],
-      "detectedAt": "2026-11-09T17:07:04.057Z"
+      "detectedAt": "2026-11-12T15:44:51.952Z"
     },
     {
       "url": "https://madrid.gaycities.com/bars?neighborhood=chueca&type=cruising",
@@ -34,23 +26,7 @@
       "refIds": [
         "bar:naked-madrid"
       ],
-      "detectedAt": "2026-11-09T17:07:17.911Z"
-    },
-    {
-      "url": "https://www.misterbandb.com/gay-guide/spain/madrid/29-sex-clubs",
-      "label": "Secrets",
-      "refIds": [
-        "bar:secrets-madrid"
-      ],
-      "detectedAt": "2026-11-09T17:07:23.695Z"
-    },
-    {
-      "url": "https://locobongo.es/torremolinos/",
-      "label": "Loco Bongo Torremolinos",
-      "refIds": [
-        "bar:loco-bongo-torremolinos"
-      ],
-      "detectedAt": "2026-11-09T17:07:26.359Z"
+      "detectedAt": "2026-11-12T15:45:07.765Z"
     }
   ],
   "errors": [
